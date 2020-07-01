@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Quiz System</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+
+</head>
+
+
+<body>
+<h1 style="font-size: 30px; font-family: Arial;">Web Designing Quiz</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Q1> HTML is a pure Programming Language.</p>
+<input type = "radio" id = "mc" name = "question1" value = "True"> True<br>
+<input type = "radio" id = "mc" name = "question1" value = "False">False<br>
+<img src="images/right.png" alt="" width="20px" height="20px;" style="margin-left: 20%" id = "one">
+<img src="images/wrong.png" alt="" width="20px" height="20px;" id = "ones">
+
+<p class = "questions">Q2> HTML was proposed in which year?</p>
+<input type = "radio" id = "mc" name = "question2" value = "1990">1990<br>
+<input type = "radio" id = "mc" name = "question2" value = "1980">1980<br>
+<img src="images/right.png" alt="" width="20px" height="20px;" style="margin-left: 20%" id = "two">
+<img src="images/wrong.png" alt="" width="20px" height="20px;" id = "twos">
+
+
+<p class = "questions">Q3> What is the abbreviation of CSS?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Cascading Style Sheets">Cascading Style Sheets<br>
+<input type = "radio" id = "mc" name = "question3" value = "Color Smart Sheets">Color Smart Sheets<br>
+<img src="images/right.png" alt="" width="20px" height="20px;" style="margin-left: 20%" id="three">
+<img src="images/wrong.png" alt="" width="20px" height="20px;" id = "threes">
+
+<p class = "questions">Q4> What keyword is used to declare a variable in JavaScript?</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "int">int<br>
+<input type = "radio" id = "mc" name = "question4" value = "var">var<br>
+<img src="images/right.png" alt="" width="20px" height="20px;" style="margin-left: 20%" id="four">
+<img src="images/wrong.png" alt="" width="20px" height="20px;" id = "fours">
+
+<input id = "button" type = "button" value = "Submit" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+</div>
+</body>
+</html>
